@@ -1,4 +1,4 @@
-var gameData = [
+const gameData = [
   {
     title: 'The Legend of Zelda: Ocarina of Time',
     releaseDate: '1998-11-23',
@@ -1148,7 +1148,7 @@ var gameData = [
     favorite: false,
     platforms: ['Nintendo DS'],
     developers: ['Game Freak'],
-    publishers: ['The Pokémon Company','Nintendo'],
+    publishers: ['The Pokémon Company', 'Nintendo'],
     wikipedia: 'https://en.wikipedia.org/wiki/Pok%C3%A9mon_HeartGold_and_SoulSilver'
   },
   {
@@ -1369,7 +1369,7 @@ var gameData = [
     releaseDate: '2008-03-09',
     favorite: false,
     platforms: ['Wii'],
-    developers: ['Game Arts','HAL Laboratory','Sora Ltd.'],
+    developers: ['Game Arts', 'HAL Laboratory', 'Sora Ltd.'],
     publishers: ['Nintendo'],
     wikipedia:
       'https://en.wikipedia.org/wiki/Super_Smash_Bros._Brawl'
