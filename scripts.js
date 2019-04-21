@@ -1,10 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var eGridDiv = document.querySelector('#game-grid');
+    const eGridDiv = document.querySelector('#game-grid');
     new agGrid.Grid(eGridDiv, gridOptions);
+    totalGames(gameData);
+    getUniquePlatforms(gameData);
 });
 
 // game grid
-var columnDefs = [
+const columnDefs = [
     {
         headerName: '',
         field: 'favorite',
@@ -42,7 +44,7 @@ var columnDefs = [
         sort: 'desc',
         cellRenderer: (params) => {
             if (params.value) {
-                var len = (params.value).length;
+                const len = (params.value).length;
                 if (len === 4) {
                     return moment(params.value).format('YYYY');
                 } else if (len === 7) {
@@ -55,7 +57,6 @@ var columnDefs = [
             }
         }
     },
-    
     {
         headerName: 'Developer',
         field: 'developers',
@@ -68,7 +69,7 @@ var columnDefs = [
     }
 ];
 
-var gridOptions = {
+const gridOptions = {
     columnDefs: columnDefs,
     defaultColDef: {
         filter: 'agTextColumnFilter',
@@ -82,8 +83,6 @@ var gridOptions = {
     floatingFilter: true,
     rowClass: 'game-row',
     onFirstDataRendered: onFirstDataRendered
-    // sideBar: 'filters', // ent-only
-    //components: {}
 };
 
 function onFirstDataRendered(params) {
@@ -91,7 +90,7 @@ function onFirstDataRendered(params) {
 }
 
 function autoSizeAll() {
-    var allColumnIds = [];
+    let allColumnIds = [];
     gridOptions.columnApi.getAllColumns().forEach(function(column) {
         allColumnIds.push(column.colId);
     });
@@ -99,8 +98,6 @@ function autoSizeAll() {
 }
 
 // Determine totals
-totalGames(gameData);
-
 function totalGames(data) {
 
     const total = data.length;
@@ -138,22 +135,20 @@ function totalGames(data) {
     microsoftEl.textContent = microsoft;
 }
 
-
-// Determine and chart unique platforms
-getUniquePlatforms(gameData);
-
+// Determine and chart platforms
 function getUniquePlatforms(data) {
-    var platformArrs = [];
-    for (i = 0; i < gameData.length; i++) {
+    let platformArrs = [];
+    for (let i = 0; i < data.length; i++) {
 
-        platformArrs.push(gameData[i].platforms);
+        platformArrs.push(data[i].platforms);
 
-        if (i === (gameData.length - 1)) {
+        if (i === data.length - 1) {
+
             let merged = [].concat.apply([], platformArrs);
-            var counts = {};
+            let counts = {};
 
-            for (var i = 0; i < merged.length; i++) {
-                var num = merged[i];
+            for (let p = 0; p < merged.length; p++) {
+                const num = merged[p];
                 counts[num] = counts[num] ? counts[num] + 1 : 1;
             }
 
