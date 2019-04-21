@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600|Press+Start+2P');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  background: #07053a;
+  color: #fff;
+}
+a,
+a:visited {
+  color: #2ce2e6;
+}
+a.game-link:visited {
+  opacity: 0.9;
+}
+h1 {
+  font-size: 40px;
+}
+
+section {
+  padding: 3em;
+}
+
+.hero {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url('img/background.png');
+  background-size: cover;
+}
+#main-title {
+  margin: 3em 2em 0;
+  font-size: 3rem;
+  line-height: 1.125;
+  font-family: 'Press Start 2P', sans-serif;
+  text-align: center;
+}
+.anaglyph {
+  box-sizing: content-box;
+  border: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-overflow: clip;
+  letter-spacing: 3px;
+  text-shadow: -3px 0 1px rgb(30, 242, 241), 3px 0 1px rgb(255, 0, 54);
+}
+.title {
+  font-size: 2rem;
+  line-height: 1.125;
+  font-family: 'Press Start 2P', sans-serif;
+  text-align: center;
+}
+.sub-title {
+  font-size: 1.2rem;
+  line-height: 1.125;
+  font-family: 'Press Start 2P', sans-serif;
+  text-align: center;
+}
+.total-num {
+  font-size: 3rem;
+  display: block;
+  margin: 0 auto;
+  line-height: 1.125;
+  font-family: 'Press Start 2P', sans-serif;
+  color: rgb(30, 242, 241);
+}
+.large-num {
+  font-size:5rem;
+}
+.additional-info {
+  display:block;
+  padding:0 1em 1em;
+  font-family: 'Press Start 2P', sans-serif;
+  text-align:center;
+  margin:0 auto;
+}
+a.game-link,
+a.game-link:visited {
+  font-weight: bold;
+}
+
+.full-heart {
+  color: #f4645f;
+}
+.no-heart {
+  color: #fff;
+  opacity: 0.2;
+}
+#platforms-chart {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.flex-container {
+  display: flex;
+}
+.flex-item {
+  flex: 1 1 0;
+}
+/*--
+ ag-grid modifications
+--*/
+.ag-theme-balham-dark {
+  font-family: 'Poppins', sans-serif;
+}
+.ag-cell-focus {
+  user-select: initial;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  -webkit-user-select: text;
+}
+.ag-header-cell-label {
+  font-family: 'Press Start 2P', sans-serif;
+}
+#logo {
+  padding-top: 4em;
+  text-align: center;
+}
+#logo img {
+  width: 70%;
+  margin: 0 auto;
+}
+#game-grid .ag-theme-balham-dark .ag-root {
+  border: none;
+}
+#game-grid .game-row {
+  background-color: #07053a;
+  border: none;
+}
+#game-grid .game-row:nth-child(odd) {
+  background-color: #12124d;
+}
+.ag-header-cell-text {
+  color: #2ce2e6;
+}
+#game-grid .ag-header {
+  background-color: #07053a;
+}
+#game-grid .ag-root {
+  border: none;
+}
+#game-grid .ag-cell {
+  border: none;
+}
+#game-grid .ag-header-cell,
+#game-grid .ag-header {
+  border: none;
+  font-size: 10px;
+  font-weight: normal;
+}
+#game-grid input,
+#game-grid select {
+  border: none;
+  background-color: #fff;
+  border-radius: 3px;
+  color: #07053a;
+}
+#game-grid {
+  background-color: #050324;
+}
