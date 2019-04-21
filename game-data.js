@@ -509,7 +509,7 @@ var gameData = [
   },
   {
     title: 'Halo 4',
-    releaseDate: '2012',
+    releaseDate: '2012-11-06',
     favorite: false,
     platforms: ['Xbox 360'],
     developers: ['343 Industries'],
@@ -573,7 +573,7 @@ var gameData = [
   },
   {
     title: 'New Super Mario Bros. U',
-    releaseDate: '2012',
+    releaseDate: '2012-11-18',
     favorite: false,
     platforms: ['Wii U'],
     developers: ['Nintendo EAD'],
@@ -600,7 +600,7 @@ var gameData = [
   },
   {
     title: 'Quantum Conundrum',
-    releaseDate: '2012',
+    releaseDate: '2012-07-11',
     favorite: false,
     platforms: ['Xbox 360'],
     developers: ['Airtight Games'],
@@ -690,7 +690,7 @@ var gameData = [
   },
   {
     title: 'LittleBigPlanet 2',
-    releaseDate: '2011',
+    releaseDate: '2011-01-18',
     favorite: false,
     platforms: ['PlayStation 3 (PS3)'],
     developers: ['Media Molecule'],
@@ -753,7 +753,7 @@ var gameData = [
   },
   {
     title: "Uncharted 3: Drake's Deception",
-    releaseDate: '2011',
+    releaseDate: '2011-11-01',
     favorite: false,
     platforms: ['PlayStation 4 (PS4)'],
     publishers: ['Naughty Dog'],
@@ -807,7 +807,7 @@ var gameData = [
   },
   {
     title: 'Fable III',
-    releaseDate: '2010',
+    releaseDate: '2010-10-26',
     favorite: false,
     platforms: ['Xbox 360'],
     developers: ['Lionhead Studios'],
@@ -990,7 +990,7 @@ var gameData = [
   },
   {
     title: '3D Dot Game Heroes',
-    releaseDate: '2009',
+    releaseDate: '2010-05-11',
     favorite: false,
     platforms: ['PlayStation 3 (PS3)'],
     developers: ['Silicon Studio'],
@@ -999,7 +999,7 @@ var gameData = [
   },
   {
     title: "Assassin's Creed II",
-    releaseDate: '2009',
+    releaseDate: '2009-11-17',
     favorite: false,
     platforms: ['Xbox 360', 'PlayStation 3 (PS3)'],
     publishers: ['Ubisoft Montreal'],
@@ -1146,25 +1146,24 @@ var gameData = [
     title: 'Pokémon HeartGold and SoulSilver',
     releaseDate: '2009-03-14',
     favorite: false,
-    platforms: [],
-    developers: [],
-    publishers: [],
-    wikipedia:
-      'https://en.wikipedia.org/wiki/Pok%C3%A9mon_HeartGold_and_SoulSilver'
+    platforms: ['Nintendo DS'],
+    developers: ['Game Freak'],
+    publishers: ['The Pokémon Company','Nintendo'],
+    wikipedia: 'https://en.wikipedia.org/wiki/Pok%C3%A9mon_HeartGold_and_SoulSilver'
   },
   {
     title: 'Ratchet & Clank Future: A Crack in Time',
-    releaseDate: '2009',
+    releaseDate: '2009-10-27',
     favorite: false,
-    platforms: ['Nintendo DS'],
-    developers: ['Game Freak'],
-    publishers: ['The Pokémon Company', 'Nintendo'],
+    platforms: ['PlayStation 3 (PS3)'],
+    developers: ['Insomniac Games'],
+    publishers: ['Sony Computer Entertainment'],
     wikipedia:
-      'https://en.wikipedia.org/wiki/Pok%C3%A9mon_HeartGold_and_SoulSilver'
+      'https://en.wikipedia.org/wiki/Ratchet_%26_Clank_Future:_A_Crack_in_Time'
   },
   {
     title: 'Red Faction: Guerrilla',
-    releaseDate: '2009',
+    releaseDate: '2009-06-02',
     favorite: false,
     platforms: ['Xbox 360', 'PlayStation 3 (PS3)'],
     developers: ['Volition'],
@@ -1367,13 +1366,13 @@ var gameData = [
   },
   {
     title: 'Super Smash Bros. Brawl',
-    releaseDate: '2008',
+    releaseDate: '2008-03-09',
     favorite: false,
-    platforms: ['PlayStation 3 (PS3)'],
-    developers: ['Insomniac Games'],
-    publishers: ['Sony Computer Entertainment'],
+    platforms: ['Wii'],
+    developers: ['Game Arts','HAL Laboratory','Sora Ltd.'],
+    publishers: ['Nintendo'],
     wikipedia:
-      'https://en.wikipedia.org/wiki/Ratchet_%26_Clank_Future:_Quest_for_Booty'
+      'https://en.wikipedia.org/wiki/Super_Smash_Bros._Brawl'
   },
   {
     title: "Tom Clancy's Rainbow Six: Vegas 2",
@@ -1533,7 +1532,7 @@ var gameData = [
   },
   {
     title: "Zack & Wiki: Quest for Barbaros' Treasure",
-    releaseDate: '2007',
+    releaseDate: '2007-10-23',
     favorite: false,
     platforms: ['Wii'],
     publishers: ['Capcom'],
@@ -1984,7 +1983,7 @@ var gameData = [
   },
   {
     title: 'Pokémon Gold and Silver',
-    releaseDate: '1999',
+    releaseDate: '1999-10-15',
     favorite: false,
     platforms: ['Game Boy Color'],
     developers: ['Game Freak'],
@@ -2119,7 +2118,7 @@ var gameData = [
   },
   {
     title: "Yoshi's Story",
-    releaseDate: '1997',
+    releaseDate: '1997-03-10',
     favorite: false,
     platforms: ['Nintendo 64'],
     developers: ['Nintendo EAD'],
@@ -2283,7 +2282,7 @@ var gameData = [
   },
   {
     title: 'Sonic & Knuckles',
-    releaseDate: '1994',
+    releaseDate: '1994-10-18',
     favorite: false,
     platforms: ['Sega Genesis'],
     developers: ['Sega'],
