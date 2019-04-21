@@ -1,3 +1,9 @@
+document.addEventListener('DOMContentLoaded', function () {
+    var eGridDiv = document.querySelector('#game-grid');
+    new agGrid.Grid(eGridDiv, gridOptions);
+});
+
+// game grid
 var columnDefs = [
     {
         headerName: '',
@@ -40,9 +46,9 @@ var columnDefs = [
                 if (len === 4) {
                     return moment(params.value).format('YYYY');
                 } else if (len === 7) {
-                    return moment(params.value).format('MMMM YYYY');
+                    return moment(params.value).format('MMM YYYY');
                 } else if (len === 10) {
-                    return moment(params.value).format('MMMM D, YYYY');
+                    return moment(params.value).format('MMM D, YYYY');
                 }
             } else {
                 return 'N/A';
@@ -91,10 +97,6 @@ function autoSizeAll() {
     });
     gridOptions.columnApi.autoSizeColumns(allColumnIds);
 }
-document.addEventListener('DOMContentLoaded', function () {
-    var eGridDiv = document.querySelector('#game-grid');
-    new agGrid.Grid(eGridDiv, gridOptions);
-});
 
 // Determine totals
 totalGames(gameData);
