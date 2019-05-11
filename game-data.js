@@ -164,6 +164,15 @@ const gameData = [
     wikipedia: 'https://en.wikipedia.org/wiki/Final_Fantasy_XV'
   },
   {
+    title: 'Deus Ex: Mankind Divided',
+    releaseDate: '2016-08-23',
+    favorite: false,
+    platforms: ['PlayStation 4 (PS4)'],
+    developers: ['Eidos Montréal'],
+    publishers: ['Square Enix'],
+    wikipedia: 'https://en.wikipedia.org/wiki/Deus_Ex:_Mankind_Divided'
+  },
+  {
     title: 'Hitman',
     releaseDate: '2016-03-11',
     favorite: false,
