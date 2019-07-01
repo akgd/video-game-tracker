@@ -15,7 +15,7 @@ body {
   font-size: 15px;
   background: #07053a;
   color: #fff;
-  background-image: url('img/background.png');
+  background-image: url('../img/background.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top; 
