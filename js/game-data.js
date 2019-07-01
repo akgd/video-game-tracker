@@ -105,7 +105,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/Monster_Hunter:_World"
   },
   {
-    "title": "Assassinâ€™s Creed Origins",
+    "title": "Assassin's Creed Origins",
     "releaseDate": "2017-10-27",
     "favorite": true,
     "platforms": [
