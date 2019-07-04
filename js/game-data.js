@@ -631,7 +631,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/Ratchet_%26_Clank:_Into_the_Nexus"
   },
   {
-    "title": "PokÃ©mon X and Y",
+    "title": "Pokemon X and Y",
     "releaseDate": "2013-10-12",
     "favorite": false,
     "platforms": [
@@ -641,7 +641,7 @@ const gameData = [
       "Game Freak"
     ],
     "publishers": [
-      "The PokÃ©mon Company",
+      "The Pokemon Company",
       "Nintendo"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_X_and_Y"
@@ -846,7 +846,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/Dishonored"
   },
   {
-    "title": "PokÃ©mon Black 2 and White 2",
+    "title": "Pokemon Black 2 and White 2",
     "releaseDate": "2012-10-07",
     "favorite": false,
     "platforms": [
@@ -856,7 +856,7 @@ const gameData = [
       "Game Freak"
     ],
     "publishers": [
-      "The PokÃ©mon Company",
+      "The Pokemon Company",
       "Nintendo"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_2_and_White_2"
@@ -1253,7 +1253,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/%C5%8Ckamiden"
   },
   {
-    "title": "PokÃ©mon Black and White",
+    "title": "Pokemon Black and White",
     "releaseDate": "2011-03-06",
     "favorite": false,
     "platforms": [
@@ -1263,7 +1263,7 @@ const gameData = [
       "Game Freak"
     ],
     "publishers": [
-      "The PokÃ©mon Company",
+      "The Pokemon Company",
       "Nintendo"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_and_White"
@@ -1994,7 +1994,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/Infamous_(video_game)"
   },
   {
-    "title": "PokÃ©mon HeartGold and SoulSilver",
+    "title": "Pokemon HeartGold and SoulSilver",
     "releaseDate": "2009-03-14",
     "favorite": false,
     "platforms": [
@@ -2004,7 +2004,7 @@ const gameData = [
       "Game Freak"
     ],
     "publishers": [
-      "The PokÃ©mon Company",
+      "The Pokemon Company",
       "Nintendo"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_HeartGold_and_SoulSilver"
@@ -2708,7 +2708,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/New_Super_Mario_Bros."
   },
   {
-    "title": "PokÃ©mon Diamond and Pearl",
+    "title": "Pokemon Diamond and Pearl",
     "releaseDate": "2006-04-22",
     "favorite": false,
     "platforms": [
@@ -2718,7 +2718,7 @@ const gameData = [
       "Game Freak"
     ],
     "publishers": [
-      "The PokÃ©mon Company",
+      "The Pokemon Company",
       "Nintendo"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Diamond_and_Pearl"
@@ -2830,7 +2830,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/Shadow_of_the_Colossus"
   },
   {
-    "title": "PokÃ©mon Emerald",
+    "title": "Pokemon Emerald",
     "releaseDate": "2005-05-01",
     "favorite": false,
     "platforms": [
@@ -2840,7 +2840,7 @@ const gameData = [
       "Game Freak"
     ],
     "publishers": [
-      "The PokÃ©mon Company",
+      "The Pokemon Company",
       "Nintendo"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Emerald"
@@ -3058,7 +3058,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Wind_Waker"
   },
   {
-    "title": "PokÃ©mon Ruby and Sapphire",
+    "title": "Pokemon Ruby and Sapphire",
     "releaseDate": "2003-03-19",
     "favorite": false,
     "platforms": [
@@ -3068,7 +3068,7 @@ const gameData = [
       "Game Freak"
     ],
     "publishers": [
-      "The PokÃ©mon Company",
+      "The Pokemon Company",
       "Nintendo"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire"
@@ -3331,7 +3331,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/Final_Fantasy_IX"
   },
   {
-    "title": "PokÃ©mon Stadium",
+    "title": "Pokemon Stadium",
     "releaseDate": "2000-02-29",
     "favorite": false,
     "platforms": [
@@ -3362,7 +3362,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/Donkey_Kong_64"
   },
   {
-    "title": "PokÃ©mon Gold and Silver",
+    "title": "Pokemon Gold and Silver",
     "releaseDate": "1999-10-15",
     "favorite": false,
     "platforms": [
@@ -3392,7 +3392,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/Jet_Force_Gemini"
   },
   {
-    "title": "PokÃ©mon Snap",
+    "title": "Pokemon Snap",
     "releaseDate": "1999-06-30",
     "favorite": false,
     "platforms": [
@@ -3484,7 +3484,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/Glover_(video_game)"
   },
   {
-    "title": "PokÃ©mon Red and Blue",
+    "title": "Pokemon Red and Blue",
     "releaseDate": "1998-09-28",
     "favorite": false,
     "platforms": [
