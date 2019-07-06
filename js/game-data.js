@@ -1254,7 +1254,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/Crysis_2"
   },
   {
-    "title": "ÅŒkamiden",
+    "title": "Okamiden",
     "releaseDate": "2011-03-15",
     "favorite": false,
     "platforms": [
@@ -2740,7 +2740,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Diamond_and_Pearl"
   },
   {
-    "title": "ÅŒkami",
+    "title": "Okami",
     "releaseDate": "2006-04-20",
     "favorite": true,
     "platforms": [
