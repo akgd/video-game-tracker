@@ -29,6 +29,7 @@ const gameData = [
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Red_Dead_Redemption_2"
   },
+
   {
     "title": "Assassin's Creed Odyssey",
     "releaseDate": "2018-10-05",
@@ -43,6 +44,21 @@ const gameData = [
       "Ubisoft"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_Odyssey"
+  },  
+  {
+    "title": "Astro Bot Rescue Mission",
+    "releaseDate": "2018-10-02",
+    "favorite": false,
+    "platforms": [
+      "PlayStation 4 (PS4)"
+    ],
+    "developers": [
+      "SIE Japan Studio"
+    ],
+    "publishers": [
+      "Sony Interactive Entertainment"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Astro_Bot_Rescue_Mission"
   },
   {
     "title": "Spider-Man",
@@ -631,7 +647,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/Ratchet_%26_Clank:_Into_the_Nexus"
   },
   {
-    "title": "Pokemon X and Y",
+    "title": "Pokémon X and Y",
     "releaseDate": "2013-10-12",
     "favorite": false,
     "platforms": [
@@ -641,7 +657,7 @@ const gameData = [
       "Game Freak"
     ],
     "publishers": [
-      "The Pokemon Company",
+      "The Pokémon Company",
       "Nintendo"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_X_and_Y"
@@ -846,7 +862,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/Dishonored"
   },
   {
-    "title": "Pokemon Black 2 and White 2",
+    "title": "Pokémon Black 2 and White 2",
     "releaseDate": "2012-10-07",
     "favorite": false,
     "platforms": [
@@ -856,7 +872,7 @@ const gameData = [
       "Game Freak"
     ],
     "publishers": [
-      "The Pokemon Company",
+      "The Pokémon Company",
       "Nintendo"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_2_and_White_2"
@@ -1253,7 +1269,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/%C5%8Ckamiden"
   },
   {
-    "title": "Pokemon Black and White",
+    "title": "Pokémon Black and White",
     "releaseDate": "2011-03-06",
     "favorite": false,
     "platforms": [
@@ -1263,7 +1279,7 @@ const gameData = [
       "Game Freak"
     ],
     "publishers": [
-      "The Pokemon Company",
+      "The Pokémon Company",
       "Nintendo"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_and_White"
@@ -1994,7 +2010,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/Infamous_(video_game)"
   },
   {
-    "title": "Pokemon HeartGold and SoulSilver",
+    "title": "Pokémon HeartGold and SoulSilver",
     "releaseDate": "2009-03-14",
     "favorite": false,
     "platforms": [
@@ -2004,7 +2020,7 @@ const gameData = [
       "Game Freak"
     ],
     "publishers": [
-      "The Pokemon Company",
+      "The Pokémon Company",
       "Nintendo"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_HeartGold_and_SoulSilver"
@@ -2708,7 +2724,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/New_Super_Mario_Bros."
   },
   {
-    "title": "Pokemon Diamond and Pearl",
+    "title": "Pokémon Diamond and Pearl",
     "releaseDate": "2006-04-22",
     "favorite": false,
     "platforms": [
@@ -2718,7 +2734,7 @@ const gameData = [
       "Game Freak"
     ],
     "publishers": [
-      "The Pokemon Company",
+      "The Pokémon Company",
       "Nintendo"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Diamond_and_Pearl"
@@ -2830,7 +2846,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/Shadow_of_the_Colossus"
   },
   {
-    "title": "Pokemon Emerald",
+    "title": "Pokémon Emerald",
     "releaseDate": "2005-05-01",
     "favorite": false,
     "platforms": [
@@ -2840,7 +2856,7 @@ const gameData = [
       "Game Freak"
     ],
     "publishers": [
-      "The Pokemon Company",
+      "The Pokémon Company",
       "Nintendo"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Emerald"
@@ -3058,7 +3074,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Wind_Waker"
   },
   {
-    "title": "Pokemon Ruby and Sapphire",
+    "title": "Pokémon Ruby and Sapphire",
     "releaseDate": "2003-03-19",
     "favorite": false,
     "platforms": [
@@ -3068,7 +3084,7 @@ const gameData = [
       "Game Freak"
     ],
     "publishers": [
-      "The Pokemon Company",
+      "The Pokémon Company",
       "Nintendo"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire"
@@ -3331,7 +3347,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/Final_Fantasy_IX"
   },
   {
-    "title": "Pokemon Stadium",
+    "title": "Pokémon Stadium",
     "releaseDate": "2000-02-29",
     "favorite": false,
     "platforms": [
@@ -3362,7 +3378,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/Donkey_Kong_64"
   },
   {
-    "title": "Pokemon Gold and Silver",
+    "title": "Pokémon Gold and Silver",
     "releaseDate": "1999-10-15",
     "favorite": false,
     "platforms": [
@@ -3392,7 +3408,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/Jet_Force_Gemini"
   },
   {
-    "title": "Pokemon Snap",
+    "title": "Pokémon Snap",
     "releaseDate": "1999-06-30",
     "favorite": false,
     "platforms": [
@@ -3484,7 +3500,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/Glover_(video_game)"
   },
   {
-    "title": "Pokemon Red and Blue",
+    "title": "Pokémon Red and Blue",
     "releaseDate": "1998-09-28",
     "favorite": false,
     "platforms": [
@@ -3514,7 +3530,7 @@ const gameData = [
     "wikipedia": "https://en.wikipedia.org/wiki/Banjo-Kazooie"
   },
   {
-    "title": "1080Â° Snowboarding",
+    "title": "1080° Snowboarding",
     "releaseDate": "1998-03-31",
     "favorite": false,
     "platforms": [
@@ -3993,7 +4009,7 @@ const gameData = [
       "Cyan"
     ],
     "publishers": [
-      "BrÃ¸derbund"
+      "Broderbund"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Myst"
   },
@@ -4492,7 +4508,7 @@ const gameData = [
       "MECC"
     ],
     "publishers": [
-      "BrÃ¸derbund"
+      "Broderbund"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/The_Oregon_Trail_(1985_video_game)"
   },
