@@ -12,7 +12,7 @@ const columnDefs = [
         field: 'favorite',
         filter: false,
         suppressMenu: true,
-        width: 50,
+        width: 30,
         cellRenderer: (params) => {
             if (params.value) {
                 return '<i class="fas fa-heart full-heart"></i>'
@@ -31,12 +31,6 @@ const columnDefs = [
                 return params.value;
             }
         }
-    },
-    {
-        headerName: 'Platforms Played',
-        field: 'platforms',
-        sortable: false,
-        filterParams: { values: ['PlayStation 2'] },
     },
     {
         headerName: 'Released (NA)',
