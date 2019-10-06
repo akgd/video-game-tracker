@@ -703,7 +703,7 @@ const gameData = [
     favorite: true,
     platforms: ['PlayStation 4 (PS4)'],
     developers: ['FromSoftware'],
-    publishers: ['Namco Bandai Games'],
+    publishers: ['Bandai Namco Games'],
     wikipedia: 'https://en.wikipedia.org/wiki/Dark_Souls'
   },
   {
@@ -901,7 +901,7 @@ const gameData = [
     favorite: false,
     platforms: ['Xbox 360'],
     developers: ['Ninja Theory'],
-    publishers: ['Namco Bandai Games'],
+    publishers: ['Bandai Namco Games'],
     wikipedia: 'https://en.wikipedia.org/wiki/Enslaved:_Odyssey_to_the_West'
   },
   {
@@ -2774,5 +2774,32 @@ const gameData = [
     developers: ['Atari'],
     publishers: ['Atari'],
     wikipedia: 'https://en.wikipedia.org/wiki/Pong'
+  },
+  {
+    title: 'Bloodborne',
+    releaseDate: '2015-03-24',
+    favorite: true,
+    platforms: ['PlayStation 4 (PS4)'],
+    developers: ['FromSoftware'],
+    publishers: ['Sony Computer Entertainment'],
+    wikipedia: 'https://en.wikipedia.org/wiki/Bloodborne'
+  },
+  {
+    title: 'Dark Souls II',
+    releaseDate: '2014-03-11',
+    favorite: false,
+    platforms: ['PlayStation 4 (PS4)'],
+    developers: ['FromSoftware'],
+    publishers: ['Bandai Namco Games'],
+    wikipedia: 'https://en.wikipedia.org/wiki/Dark_Souls_II'
+  },
+  {
+    title: 'Dark Souls III',
+    releaseDate: '2016-04-12',
+    favorite: false,
+    platforms: ['PlayStation 4 (PS4)'],
+    developers: ['FromSoftware'],
+    publishers: ['Bandai Namco Games'],
+    wikipedia: 'https://en.wikipedia.org/wiki/Dark_Souls_III'
   }
 ];
