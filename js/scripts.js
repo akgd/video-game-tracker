@@ -1,26 +1,166 @@
 document.addEventListener('DOMContentLoaded', function () {
+    handleTabs();
+    handleSwitches();
+    setElHeightAndWidth(document.querySelector('div[data-tab="games"]'));
     const eGridDiv = document.querySelector('#game-grid');
     new agGrid.Grid(eGridDiv, gridOptions);
-    totalGames(gameData);
-    getUniquePlatforms(gameData);
+
+    getRenderFavorites(gameData);
+    document.querySelector('#total-data').textContent = gameData.length;
+    getRenderUniquePlatforms(gameData);
 });
+
+function handleTabs() {
+    // Get the nav and content elements
+    const tabNavEls = document.querySelectorAll('.tabs ul > li');
+    const tabContentEls = document.querySelectorAll('.tabs-content > div');
+    // Add click event to tab navigation els
+    for (i = 0; i < tabNavEls.length; i++) {
+        tabNavEls[i].addEventListener('click', function () {
+            const target = this.dataset.tab;
+            // Remove the active style from all nav els
+            for (nav = 0; nav < tabNavEls.length; nav++) {
+                tabNavEls[nav].classList.remove('is-active')
+            }
+            // Add the active style class to clicked nav el
+            this.classList.add('is-active');
+            // Hide all tab content els
+            for (content = 0; content < tabContentEls.length; content++) {
+                tabContentEls[content].setAttribute('style', 'display:none');
+            }
+            // Find target tab content el and show it
+            const targetContent = document.querySelector('.tabs-content > div[data-tab="' + target + '"]');
+            targetContent.setAttribute('style', 'display:block');
+        });
+    }
+}
+
+function handleSwitches() {
+    const switches = document.querySelectorAll('.pip-switch');
+    switches.forEach(el => {
+        el.addEventListener('click', function () {
+            const action = el.dataset.switch;
+            if (action === 'theme') {
+                themeSwitch();
+            } else {
+                triggerTab(action);
+                switches.forEach(item => {
+                    item.classList.remove('is-active');
+                });
+                el.classList.add('is-active');
+            }
+        });
+    })
+}
+
+function themeSwitch() {
+    const app = document.querySelector('#app');
+    const currentTheme = app.dataset.theme;
+    if (currentTheme === 'wasteland') {
+        app.dataset.theme = 'newvegas';
+    } else {
+        app.dataset.theme = 'wasteland';
+    }
+}
+
+function triggerTab(tab) {
+    const target = document.querySelector('.tabs li[data-tab="' + tab + '"]');
+    target.click();
+}
+
+function getRenderUniquePlatforms(data) {
+    let platformArrs = [];
+    for (let i = 0; i < data.length; i++) {
+        platformArrs.push(data[i].platforms);
+        if (i === data.length - 1) {
+            let merged = [].concat.apply([], platformArrs);
+            let counts = {};
+
+            for (let p = 0; p < merged.length; p++) {
+                const num = merged[p];
+                counts[num] = counts[num] ? counts[num] + 1 : 1;
+            }
+
+            const ordered = {};
+            Object.keys(counts).sort().forEach(function (key) {
+                ordered[key] = counts[key];
+            });
+
+            let sorted = [];
+            for (let platform in counts) {
+                sorted.push([platform, counts[platform]]);
+            }
+
+            sorted.sort(function (a, b) {
+                return b[1] - a[1];
+            });
+            renderPlatforms(sorted)
+        }
+    }
+}
+
+function renderPlatforms(data) {
+    let listItems = ``;
+    data.forEach(el => {
+        const newEl = `<li><span>${el[1]}</span><span>${el[0]}</span></li>`;
+        listItems = listItems + newEl
+    });
+    const newList = `<ul>${listItems}</ul>`;
+    const listContainer = document.querySelector('#platform-data');
+    listContainer.innerHTML = newList;
+}
+
+function getRenderFavorites(data) {
+    let favorites = data.filter(function (item) {
+        if (item.favorite === 1 || item.favorite === true) {
+            return item;
+        }
+    });
+    favorites.sort(function (a, b) {
+        const valA = a.title.toUpperCase();
+        const valB = b.title.toUpperCase();
+
+        let comparison = 0;
+        if (valA > valB) {
+            comparison = 1;
+        } else if (valA < valB) {
+            comparison = -1;
+        }
+        return comparison;
+    });
+    let srankEls = ``;
+    let favEls = ``;
+    favorites.forEach(function (el) {
+        let newEl;
+        if (el.srank) {
+            newEl = `<li class="favorite-game"><i class="fas fa-heart"></i><i class="fas fa-heart"></i><span>${el.title}</span></li>`;
+            srankEls = srankEls + newEl;
+        } else {
+            newEl = `<li class="favorite-game"><i class="fas fa-heart"></i><span>${el.title}</span></li>`;
+            favEls = favEls + newEl;
+        }
+    })
+    favEls = `<ul>${srankEls}${favEls}</ul>`
+    const favContainer = document.querySelector('#favorites');
+    favContainer.innerHTML = favEls;
+}
+
+function compareByKeyValue(a, b) {
+    // Use toUpperCase() to ignore character casing
+    const valA = a[keyName].toUpperCase();
+    const valB = b[keyName].toUpperCase();
+
+    let comparison = 0;
+    if (valA > valB) {
+        comparison = 1;
+    } else if (valA < valB) {
+        comparison = -1;
+    }
+    return comparison;
+}
 
 // game grid
 const columnDefs = [
-    {
-        headerName: '',
-        field: 'favorite',
-        filter: false,
-        suppressMenu: true,
-        width: 30,
-        cellRenderer: (params) => {
-            if (params.value) {
-                return '<i class="fas fa-heart full-heart"></i>'
-            } else {
-                return'<i class="far fa-heart no-heart"></i>';
-            }
-        }
-    },
     {
         headerName: 'Game',
         field: 'title',
@@ -36,20 +176,6 @@ const columnDefs = [
         headerName: 'Released (NA)',
         field: 'releaseDate',
         sort: 'desc',
-        cellRenderer: (params) => {
-            if (params.value) {
-                const len = (params.value).length;
-                if (len === 4) {
-                    return moment(params.value).format('YYYY');
-                } else if (len === 7) {
-                    return moment(params.value).format('MMM YYYY');
-                } else if (len === 10) {
-                    return moment(params.value).format('MMM D, YYYY');
-                }
-            } else {
-                return 'N/A';
-            }
-        }
     },
     {
         headerName: 'Developer',
@@ -71,7 +197,7 @@ const gridOptions = {
         resizable: true,
         filter: true,
         suppressMenu: true,
-    floatingFilterComponentParams: {suppressFilterButton:true}
+        floatingFilterComponentParams: { suppressFilterButton: true }
     },
     rowData: gameData,
     floatingFilter: true,
@@ -85,143 +211,19 @@ function onFirstDataRendered(params) {
 
 function autoSizeAll() {
     let allColumnIds = [];
-    gridOptions.columnApi.getAllColumns().forEach(function(column) {
+    gridOptions.columnApi.getAllColumns().forEach(function (column) {
         allColumnIds.push(column.colId);
     });
     gridOptions.columnApi.autoSizeColumns(allColumnIds);
 }
 
-// Determine totals
-function totalGames(data) {
-
-    const total = data.length;
-
-    let sony = 0;
-    let microsoft = 0;
-    let nintendo = 0;
-
-    for (i = 0; i < gameData.length; i++) {
-        const platforms = gameData[i].platforms;
-        for (p=0; p< platforms.length; p++) {
-            const plat = platforms[p].toLowerCase();
-            if (plat.includes('playstation')) {
-                sony++;
-            }
-            if (plat.includes('xbox')) {
-                microsoft++;
-            }
-            if (plat.includes('nintendo') || plat.includes('game boy') || plat.includes('gamecube') || plat.includes('wii')) {
-                nintendo++;
-            }
-        }
+function setElHeightAndWidth(el, paddingOnly) {
+    const h = el.offsetHeight;
+    const w = el.offsetWidth;
+    if (paddingOnly) {
+        h = el.clientHeight;
+        w = el.clientWidth;
     }
-
-    const totalEl = document.querySelector('#game-total .total-num');
-    totalEl.textContent = total;
-    
-    const sonyEl = document.querySelector('#sony-total .total-num');
-    sonyEl.textContent = sony;
-
-    const nintendoEl = document.querySelector('#nintendo-total .total-num');
-    nintendoEl.textContent = nintendo;
-
-    const microsoftEl = document.querySelector('#microsoft-total .total-num');
-    microsoftEl.textContent = microsoft;
-}
-
-// Determine and chart platforms
-function getUniquePlatforms(data) {
-    let platformArrs = [];
-    for (let i = 0; i < data.length; i++) {
-
-        platformArrs.push(data[i].platforms);
-
-        if (i === data.length - 1) {
-
-            let merged = [].concat.apply([], platformArrs);
-            let counts = {};
-
-            for (let p = 0; p < merged.length; p++) {
-                const num = merged[p];
-                counts[num] = counts[num] ? counts[num] + 1 : 1;
-            }
-
-            const ordered = {};
-            Object.keys(counts).sort().forEach(function(key) {
-            ordered[key] = counts[key];
-            });
-
-            let sortable = [];
-            for (let platform in counts) {
-                sortable.push([platform, counts[platform]]);
-            }
-
-            sortable.sort(function(a, b) {
-                return b[1] - a[1];
-            });
-
-            createPlatformChart(sortable);
-        
-        }
-    }
-}
-
-function createPlatformChart(data){
-
-     let platforms = [];
-     let counts = [];
-
-     for (i=0;i<10;i++) {
-         platforms.push(data[i][0]);
-         counts.push(data[i][1]);
-     }
-
-    const platformChartEl = document.getElementById('platforms-chart').getContext('2d');
-    const platformChart = new Chart(platformChartEl, {
-        type: 'doughnut',
-        options: {
-            responsive: true,
-            legend: {
-                position: 'bottom',
-                labels: {
-                    fontColor: "white",
-                    boxWidth: 20,
-                    padding: 20
-                }
-            }
-        },
-        data: {
-            labels: platforms,
-            datasets: [{
-                label: 'Platforms',
-                data: counts,
-                backgroundColor: [
-                    'rgba(126, 212, 135, 1.0)',
-                    'rgba(54, 162, 235, 1.0)',
-                    'rgba(232, 72, 85, 1.0)',
-                    'rgba(255, 206, 86, 1.0)',
-                    'rgba(75, 192, 192, 1.0)',
-                    'rgba(153, 102, 255, 1.0)',
-                    'rgba(255, 159, 64, 1.0)',   
-                    'rgba(112, 235, 238, 1.0)',
-                    'rgba(238, 112, 235, 1.0)',
-                    'rgba(255, 99, 132, 1.0)',
-                    
-                ],
-                borderColor: [
-                    'rgba(7, 5, 58, 1)',
-                    'rgba(7, 5, 58, 1)',
-                    'rgba(7, 5, 58, 1)',
-                    'rgba(7, 5, 58, 1)',
-                    'rgba(7, 5, 58, 1)',
-                    'rgba(7, 5, 58, 1)',
-                    'rgba(7, 5, 58, 1)',
-                    'rgba(7, 5, 58, 1)',
-                    'rgba(7, 5, 58, 1)',
-                    'rgba(7, 5, 58, 1)',
-                ],
-                borderWidth: 6
-            }]
-        }
-    });
+    el.style.height = h + 'px';
+    el.style.width = w + 'px';
 }
