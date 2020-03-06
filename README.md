@@ -1,5 +1,5 @@
 # Video Game Tracker
 
-A personal game tracker using [ag-grid](https://www.ag-grid.com/) (community) and [Chart JS](https://www.chartjs.org/).
+A personal game tracker. Game data grid created with [ag-grid](https://www.ag-grid.com/) (community).
 
 ### [DEMO](https://akgd.github.io/video-game-tracker/)
