@@ -49,6 +49,9 @@ html,
 body {
   background: #000000;
   font-family: "Monofonto-Regular", "sans-serif";
+  height:100%;
+  margin:0;
+  padding:0;
 }
 
 * {
