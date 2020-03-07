@@ -433,3 +433,17 @@ body {
   width: 25px;
   text-align: right;
 }
+.github {
+  margin:2em auto 1em;
+  display:block;
+  text-align:center;
+  font-size:.8em;
+  text-transform: uppercase;
+  opacity:0.8;
+  color: var(--pipBright);
+}
+.github a,
+.github a:visited {
+  color: var(--pipBright);
+  text-decoration: none;
+}
