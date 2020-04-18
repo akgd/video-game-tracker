@@ -3193,6 +3193,16 @@ const gameData = [
     publishers: ["505 Games"],
     wikipedia: "https://en.wikipedia.org/wiki/Control_(video_game)",
   },
+  {
+    title: "Final Fantasy VII Remake",
+    releaseDate: "2020-04-10",
+    favorite: false,
+    srank: false,
+    platforms: ["PlayStation 4 (PS4)"],
+    developers: ["Square Enix"],
+    publishers: ["Square Enix"],
+    wikipedia: "https://en.wikipedia.org/wiki/Final_Fantasy_VII_Remake",
+  },
 ];
 
 // {
