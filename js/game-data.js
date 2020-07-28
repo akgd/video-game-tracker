@@ -3218,7 +3218,7 @@ const gameData = [
     releaseDate: "2020-03-11",
     favorite: false,
     srank: false,
-    platforms: ["Nintendo Switch"],
+    platforms: ["Xbox One"],
     developers: ["Moon Studios"],
     publishers: ["Xbox Game Studios"],
     wikipedia: "https://en.wikipedia.org/wiki/Ori_and_the_Will_of_the_Wisps",
