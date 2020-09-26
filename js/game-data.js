@@ -3273,6 +3273,16 @@ const gameData = [
     publishers: ['Private Division'],
     wikipedia: 'https://en.wikipedia.org/wiki/The_Outer_Worlds',
   },
+  {
+    title: 'Spiritfarer',
+    releaseDate: '2020-08-18',
+    favorite: true,
+    srank: false,
+    platforms: ['PlayStation 4 (PS4)'],
+    developers: ['Thunder Lotus Games'],
+    publishers: ['Thunder Lotus Games'],
+    wikipedia: 'https://en.wikipedia.org/wiki/Spiritfarer'
+  }
 ];
 
 /*
