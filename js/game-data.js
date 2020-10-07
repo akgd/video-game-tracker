@@ -3282,6 +3282,26 @@ const gameData = [
     developers: ['Thunder Lotus Games'],
     publishers: ['Thunder Lotus Games'],
     wikipedia: 'https://en.wikipedia.org/wiki/Spiritfarer'
+  },
+  {
+    title: 'Watch Dogs 2',
+    releaseDate: '2016-11-15',
+    favorite: false,
+    srank: false,
+    platforms: ['PlayStation 4 (PS4)'],
+    developers: ['Ubisoft Montreal'],
+    publishers: ['Ubisoft'],
+    wikipedia: 'https://en.wikipedia.org/wiki/Watch_Dogs_2'
+  },
+  {
+    title: 'Hades',
+    releaseDate: '2020-09-17',
+    favorite: true,
+    srank: true,
+    platforms: ['Nintendo Switch'],
+    developers: ['Supergiant Games'],
+    publishers: ['Supergiant Games'],
+    wikipedia: 'https://en.wikipedia.org/wiki/Hades_(video_game)'
   }
 ];
 
