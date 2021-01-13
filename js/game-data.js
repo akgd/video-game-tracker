@@ -3302,6 +3302,46 @@ const gameData = [
     developers: ['Supergiant Games'],
     publishers: ['Supergiant Games'],
     wikipedia: 'https://en.wikipedia.org/wiki/Hades_(video_game)'
+  },
+  {
+    title: 'Assassin\'s Creed Valhalla',
+    releaseDate: '2020-11-10',
+    favorite: false,
+    srank: false,
+    platforms: ['PlayStation 4 (PS4)'],
+    developers: ['Ubisoft Montreal'],
+    publishers: ['Ubisoft'],
+    wikipedia: 'https://en.wikipedia.org/wiki/Assassin%27s_Creed_Valhalla'
+  },
+  {
+    title: 'Star Wars Jedi: Fallen Order',
+    releaseDate: '2019-11-15',
+    favorite: false,
+    srank: false,
+    platforms: ['PlayStation 4 (PS4)'],
+    developers: ['Respawn Entertainment'],
+    publishers: ['Electronic Arts'],
+    wikipedia: 'https://en.wikipedia.org/wiki/Star_Wars_Jedi:_Fallen_Order'
+  },
+  {
+    title: 'Wolfenstein: The New Order',
+    releaseDate: '2014-05-20',
+    favorite: false,
+    srank: false,
+    platforms: ['PlayStation 4 (PS4)'],
+    developers: ['MachineGames'],
+    publishers: ['Bethesda Softworks'],
+    wikipedia: 'https://en.wikipedia.org/wiki/Wolfenstein:_The_New_Order'
+  },
+  {
+    title: 'Doom Eternal',
+    releaseDate: '2020-03-20',
+    favorite: false,
+    srank: false,
+    platforms: ['PlayStation 4 (PS4)'],
+    developers: ['id Software'],
+    publishers: ['Bethesda Softworks'],
+    wikipedia: 'https://en.wikipedia.org/wiki/Doom_Eternal'
   }
 ];
 
