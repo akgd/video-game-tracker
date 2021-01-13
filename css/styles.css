@@ -275,7 +275,7 @@ body {
   justify-content: space-between;
   overflow: hidden;
   overflow-x: hidden;
-  overflow-x: auto;
+  overflow-y: auto;
   white-space: nowrap;
 }
 .tabs ul {
@@ -330,10 +330,14 @@ body {
 }
 .tabs-content > div {
   display: block;
-  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
   height: 350px;
   position: relative;
   margin: 1em 0;
+}
+.tabs-content > div[data-tab="games"] {
+  overflow: hidden;
 }
 /* GAMES TAB */
 .ag-theme-balham-dark {
@@ -446,4 +450,26 @@ body {
 .github a:visited {
   color: var(--pipBright);
   text-decoration: none;
+}
+
+/*SCROLLBAR*/
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #3bed86;
+  border-radius: 10px;
+  border: 3px solid #3bed86
+}
+
+#app[data-theme="newvegas"] *::-webkit-scrollbar-thumb {
+  background-color: #eea73b;
+  border-radius: 10px;
+  border: 3px solid #eea73b;
 }
