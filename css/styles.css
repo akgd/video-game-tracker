@@ -205,6 +205,7 @@ body {
   user-select: none;
   opacity: 0.4;
   width: 70%;
+  height:1%;
   box-shadow: 0px 80px 60px 20px var(--pipGlow);
 }
 .pip-overlay-glare-b {
@@ -218,6 +219,7 @@ body {
   user-select: none;
   opacity: 6;
   width: 15%;
+  height:1%;
   box-shadow: 0px 100px 80px 20px var(--pipGlow);
 }
 .pip-theme {
