@@ -2358,7 +2358,7 @@ const gameData = [
 	{
 		title: "Wario's Woods",
 		releaseDate: '1994-02-19',
-		hearts: 1,
+		hearts: 0,
 		platforms: ['Nintendo Entertainment System (NES)'],
 		developers: ['Nintendo R&D1'],
 		publishers: ['Nintendo'],
@@ -2799,7 +2799,7 @@ const gameData = [
 	{
 		title: 'Dark Souls III',
 		releaseDate: '2016-04-12',
-		hearts: 0,
+		hearts: 2,
 		platforms: ['PlayStation 4 (PS4)'],
 		developers: ['FromSoftware'],
 		publishers: ['Bandai Namco Games'],
@@ -3012,6 +3012,15 @@ const gameData = [
 		publishers: ['Bethesda Softworks'],
 		wikipedia: 'https://en.wikipedia.org/wiki/Doom_Eternal',
 	},
+	{
+		title: 'Devil May Cry 5',
+		releaseDate: '2019-03-08',
+		hearts: 0,
+		platforms: ['PlayStation 4 (PS4)'],
+		developers: ['Capcom'],
+		publishers: ['Capcom'],
+		wikipedia: 'https://en.wikipedia.org/wiki/Devil_May_Cry_5'
+	  }
 ];
 /*
 {
