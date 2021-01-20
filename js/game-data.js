@@ -2970,7 +2970,7 @@ const gameData = [
 	{
 		title: 'Hades',
 		releaseDate: '2020-09-17',
-		hearts: 2,
+		hearts: 3,
 		platforms: ['Nintendo Switch'],
 		developers: ['Supergiant Games'],
 		publishers: ['Supergiant Games'],
