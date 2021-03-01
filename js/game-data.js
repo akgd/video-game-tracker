@@ -3020,6 +3020,24 @@ const gameData = [
 		developers: ['Capcom'],
 		publishers: ['Capcom'],
 		wikipedia: 'https://en.wikipedia.org/wiki/Devil_May_Cry_5'
+	  },
+	  {
+		title: 'Rage 2',
+		releaseDate: '2019-05-14',
+		hearts: 0,
+		platforms: ['PlayStation 4 (PS4)'],
+		developers: ['Avalanche Studios','id Software'],
+		publishers: ['Bethesda Softworks'],
+		wikipedia: 'https://en.wikipedia.org/wiki/Rage_2'
+	  },
+	  {
+		title: 'Dragon\'s Dogma',
+		releaseDate: '2012-05-22',
+		hearts: 0,
+		platforms: ['PlayStation 4 (PS4)'],
+		developers: ['Capcom'],
+		publishers: ['Capcom'],
+		wikipedia: 'https://en.wikipedia.org/wiki/Dragon%27s_Dogma'
 	  }
 ];
 /*
@@ -3027,7 +3045,6 @@ const gameData = [
   title: '',
   releaseDate: '',
   hearts: 0,
-  
   platforms: [''],
   developers: [''],
   publishers: [''],
