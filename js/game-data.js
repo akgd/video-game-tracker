@@ -3033,11 +3033,20 @@ const gameData = [
 	  {
 		title: 'Dragon\'s Dogma',
 		releaseDate: '2012-05-22',
-		hearts: 0,
+		hearts: 2,
 		platforms: ['PlayStation 4 (PS4)'],
 		developers: ['Capcom'],
 		publishers: ['Capcom'],
 		wikipedia: 'https://en.wikipedia.org/wiki/Dragon%27s_Dogma'
+	  },
+	  {
+		title: 'Streets of Rage 4',
+		releaseDate: '2020-04-30',
+		hearts: 0,
+		platforms: ['Xbox One'],
+		developers: ['Dotemu','Lizardcube','Guard Crush Games'],
+		publishers: ['Dotemu'],
+		wikipedia: 'https://en.wikipedia.org/wiki/Streets_of_Rage_4'
 	  }
 ];
 /*
