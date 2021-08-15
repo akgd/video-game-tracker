@@ -3089,6 +3089,15 @@ const gameData = [
 		publishers: ['Microsoft Game Studios'],
 		wikipedia: 'https://en.wikipedia.org/wiki/Halo_3:_ODST',
 	},
+	{
+		title: 'Remnant: From the Ashes',
+		releaseDate: '2019-08-20',
+		hearts: 0,
+		platforms: ['PlayStation 4 (PS4)'],
+		developers: ['Gunfire Games'],
+		publishers: ['Perfect World Entertainment'],
+		wikipedia: 'https://en.wikipedia.org/wiki/Remnant:_From_the_Ashes'
+	  }
 ];
 /*
 {
