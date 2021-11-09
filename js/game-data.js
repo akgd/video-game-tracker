@@ -2814,7 +2814,7 @@ const gameData = [
 		title: 'Death Stranding',
 		releaseDate: '2019-11-08',
 		hearts: 2,
-		platforms: ['PlayStation 4 (PS4)'],
+		platforms: ['PlayStation 4 (PS4)', 'PlayStation 5 (PS5)'],
 		developers: ['Kojima Productions'],
 		publishers: ['Sony Interactive Entertainment'],
 		wikipedia: 'https://en.wikipedia.org/wiki/Death_Stranding',
@@ -3088,6 +3088,15 @@ const gameData = [
 		developers: ['Gunfire Games'],
 		publishers: ['Perfect World Entertainment'],
 		wikipedia: 'https://en.wikipedia.org/wiki/Remnant:_From_the_Ashes'
+	  },
+	{
+		title: 'Deathloop',
+		releaseDate: '2021-09-14',
+		hearts: 1,
+		platforms: ['PlayStation 5 (PS5)'],
+		developers: ['Arkane Studios'],
+		publishers: ['Bethesda Softworks'],
+		wikipedia: 'https://en.wikipedia.org/wiki/Deathloop'
 	  }
 ];
 /*
