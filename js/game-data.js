@@ -2967,7 +2967,7 @@ const gameData = [
 		title: 'Hades',
 		releaseDate: '2020-09-17',
 		hearts: 3,
-		platforms: ['Nintendo Switch','PlayStation 4 (PS4)'],
+		platforms: ['Nintendo Switch', 'PlayStation 4 (PS4)'],
 		developers: ['Supergiant Games'],
 		publishers: ['Supergiant Games'],
 		wikipedia: 'https://en.wikipedia.org/wiki/Hades_(video_game)',
@@ -3087,8 +3087,8 @@ const gameData = [
 		platforms: ['PlayStation 4 (PS4)'],
 		developers: ['Gunfire Games'],
 		publishers: ['Perfect World Entertainment'],
-		wikipedia: 'https://en.wikipedia.org/wiki/Remnant:_From_the_Ashes'
-	  },
+		wikipedia: 'https://en.wikipedia.org/wiki/Remnant:_From_the_Ashes',
+	},
 	{
 		title: 'Deathloop',
 		releaseDate: '2021-09-14',
@@ -3096,8 +3096,17 @@ const gameData = [
 		platforms: ['PlayStation 5 (PS5)'],
 		developers: ['Arkane Studios'],
 		publishers: ['Bethesda Softworks'],
-		wikipedia: 'https://en.wikipedia.org/wiki/Deathloop'
-	  }
+		wikipedia: 'https://en.wikipedia.org/wiki/Deathloop',
+	},
+	{
+		title: 'Demon\'s Souls (remake)',
+		releaseDate: '2020-11-12',
+		hearts: 3,
+		platforms: ['PlayStation 5 (PS5)'],
+		developers: ['FromSoftware','Bluepoint Games'],
+		publishers: ['Sony Interactive Entertainment'],
+		wikipedia: 'https://en.wikipedia.org/wiki/Demon%27s_Souls',
+	}
 ];
 /*
 {
