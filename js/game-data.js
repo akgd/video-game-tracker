@@ -3106,6 +3106,24 @@ const gameData = [
 		developers: ['FromSoftware','Bluepoint Games'],
 		publishers: ['Sony Interactive Entertainment'],
 		wikipedia: 'https://en.wikipedia.org/wiki/Demon%27s_Souls',
+	},
+	{
+		title: 'Diablo III',
+		releaseDate: '2012-05-12',
+		hearts: 0,
+		platforms: ['PlayStation 5 (PS5)'],
+		developers: ['Blizzard Entertainment'],
+		publishers: ['Blizzard Entertainment'],
+		wikipedia: 'https://en.wikipedia.org/wiki/Diablo_III',
+	},
+	{
+		title: 'Blasphemous',
+		releaseDate: '2019-09-10',
+		hearts: 0,
+		platforms: ['PlayStation 5 (PS5)'],
+		developers: ['The Game Kitchen'],
+		publishers: ['Team17'],
+		wikipedia: 'https://en.wikipedia.org/wiki/Blasphemous_(video_game)',
 	}
 ];
 /*
