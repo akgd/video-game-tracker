@@ -3097,15 +3097,17 @@ const gameData = [
 		developers: ['Arkane Studios'],
 		publishers: ['Bethesda Softworks'],
 		wikipedia: 'https://en.wikipedia.org/wiki/Deathloop',
+		yearFirstPlayed: '2021',
 	},
 	{
-		title: 'Demon\'s Souls (remake)',
+		title: "Demon's Souls (remake)",
 		releaseDate: '2020-11-12',
 		hearts: 3,
 		platforms: ['PlayStation 5 (PS5)'],
-		developers: ['FromSoftware','Bluepoint Games'],
+		developers: ['FromSoftware', 'Bluepoint Games'],
 		publishers: ['Sony Interactive Entertainment'],
 		wikipedia: 'https://en.wikipedia.org/wiki/Demon%27s_Souls',
+		yearFirstPlayed: '2021',
 	},
 	{
 		title: 'Diablo III',
@@ -3119,12 +3121,22 @@ const gameData = [
 	{
 		title: 'Blasphemous',
 		releaseDate: '2019-09-10',
-		hearts: 0,
+		hearts: 1,
 		platforms: ['PlayStation 5 (PS5)'],
 		developers: ['The Game Kitchen'],
 		publishers: ['Team17'],
 		wikipedia: 'https://en.wikipedia.org/wiki/Blasphemous_(video_game)',
-	}
+	},
+	{
+		title: 'Ender Lilies: Quietus of the Knights',
+		releaseDate: '2021-06-22',
+		hearts: 0,
+		platforms: ['PlayStation 5 (PS5)'],
+		developers: ['Adglobe', 'Live Wire'],
+		publishers: ['Binary Haze Interactive'],
+		wikipedia:
+			'https://en.wikipedia.org/wiki/Ender_Lilies:_Quietus_of_the_Knights',
+	},
 ];
 /*
 {
