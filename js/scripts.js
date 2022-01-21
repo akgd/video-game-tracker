@@ -72,7 +72,7 @@ function triggerTab(tab) {
 function getUniquePlatforms(data) {
 	let platformArrs = [];
 	for (let i = 0; i < data.length; i++) {
-		platformArrs.push(data[i].platforms);
+		platformArrs.push(data[i].platformsPlayed);
 		if (i === data.length - 1) {
 			let merged = [].concat.apply([], platformArrs);
 			let counts = {};
