@@ -3145,6 +3145,15 @@ const gameData = [
 		developers: ['Acid Nerve'],
 		publishers: ['Devolver Digital'],
 		wikipedia: "https://en.wikipedia.org/wiki/Death's_Door_(video_game)",
+	},
+	{
+		title: 'Salt and Sanctuary',
+		releaseDate: '2016-03-15',
+		hearts: 0,
+		platformsPlayed: ['PlayStation 5 (PS5)'],
+		developers: ['Ska Studios'],
+		publishers: ['Ska Studios'],
+		wikipedia: 'https://en.wikipedia.org/wiki/Salt_and_Sanctuary',
 	}
 ];
 /*
