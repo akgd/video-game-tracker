@@ -3154,6 +3154,33 @@ const gameData = [
 		developers: ['Ska Studios'],
 		publishers: ['Ska Studios'],
 		wikipedia: 'https://en.wikipedia.org/wiki/Salt_and_Sanctuary',
+	},
+	{
+		title: 'Skul: The Hero Slayer',
+		releaseDate: '2021-01-21',
+		hearts: 0,
+		platformsPlayed: ['PlayStation 5 (PS5)'],
+		developers: ['SouthPAW Games'],
+		publishers: ['Neowiz Games'],
+		wikipedia: '',
+	},
+	{
+		title: 'Horizon Forbidden West',
+		releaseDate: '2022-02-18',
+		hearts: 0,
+		platformsPlayed: ['PlayStation 5 (PS5)'],
+		developers: ['Guerrilla Games'],
+		publishers: ['Sony Interactive Entertainment'],
+		wikipedia: 'https://en.wikipedia.org/wiki/Horizon_Forbidden_West',
+	},
+	{
+		title: 'Elden Ring',
+		releaseDate: '2022-02-25',
+		hearts: 3,
+		platformsPlayed: ['PlayStation 5 (PS5)'],
+		developers: ['FromSoftware'],
+		publishers: ['Bandai Namco Entertainment'],
+		wikipedia: 'https://en.wikipedia.org/wiki/Elden_Ring',
 	}
 ];
 /*
