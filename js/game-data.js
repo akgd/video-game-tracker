@@ -3176,11 +3176,20 @@ const gameData = [
 	{
 		title: 'Elden Ring',
 		releaseDate: '2022-02-25',
-		hearts: 3,
+		hearts: 2,
 		platformsPlayed: ['PlayStation 5 (PS5)'],
 		developers: ['FromSoftware'],
 		publishers: ['Bandai Namco Entertainment'],
 		wikipedia: 'https://en.wikipedia.org/wiki/Elden_Ring',
+	},
+	{
+		title: 'Cyberpunk 2077',
+		releaseDate: '2020-12-10',
+		hearts: 0,
+		platformsPlayed: ['PlayStation 5 (PS5)'],
+		developers: ['CD Projekt Red'],
+		publishers: ['CD Projekt'],
+		wikipedia: 'https://en.wikipedia.org/wiki/Cyberpunk_2077',
 	}
 ];
 /*
