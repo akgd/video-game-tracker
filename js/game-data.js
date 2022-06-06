@@ -3190,7 +3190,25 @@ const gameData = [
 		developers: ['CD Projekt Red'],
 		publishers: ['CD Projekt'],
 		wikipedia: 'https://en.wikipedia.org/wiki/Cyberpunk_2077',
-	}
+	},
+	{
+		title: 'The Legend of Zelda: Link\'s Awakening',
+		releaseDate: '2019-09-20',
+		hearts: 0,
+		platformsPlayed: ['Nintendo Switch'],
+		developers: ['Grezzo'],
+		publishers: ['Nintendo'],
+		wikipedia: 'https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Link%27s_Awakening_(2019_video_game)'
+	  },
+	  {
+		title: 'Tiny Tina\'s Wonderlands',
+		releaseDate: '2022-03-25',
+		hearts: 0,
+		platformsPlayed: ['PlayStation 5 (PS5)'],
+		developers: ['Gearbox Software'],
+		publishers: ['2K Games'],
+		wikipedia: 'https://en.wikipedia.org/wiki/Tiny_Tina%27s_Wonderlands'
+	  }
 ];
 /*
 {
