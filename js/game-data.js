@@ -3208,6 +3208,33 @@ const gameData = [
 		developers: ['Gearbox Software'],
 		publishers: ['2K Games'],
 		wikipedia: 'https://en.wikipedia.org/wiki/Tiny_Tina%27s_Wonderlands'
+	  },
+	  {
+		title: 'Halo Infinite',
+		releaseDate: '2021-12-08',
+		hearts: 0,
+		platformsPlayed: ['Xbox One'],
+		developers: ['343 Industries'],
+		publishers: ['Xbox Game Studios'],
+		wikipedia: 'https://en.wikipedia.org/wiki/Halo_Infinite'
+	  },
+	  {
+		title: 'Returnal',
+		releaseDate: '2021-04-30',
+		hearts: 0,
+		platformsPlayed: ['PlayStation 5 (PS5)'],
+		developers: ['Housemarque'],
+		publishers: ['Sony Interactive Entertainment'],
+		wikipedia: 'https://en.wikipedia.org/wiki/Returnal_(video_game)'
+	  },
+	  {
+		title: 'Stray',
+		releaseDate: '2022-07-19',
+		hearts: 0,
+		platformsPlayed: ['PlayStation 5 (PS5)'],
+		developers: ['BlueTwelve Studio'],
+		publishers: ['Annapurna Interactive'],
+		wikipedia: 'https://en.wikipedia.org/wiki/Stray_(video_game)'
 	  }
 ];
 /*
