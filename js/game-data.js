@@ -3192,50 +3192,69 @@ const gameData = [
 		wikipedia: 'https://en.wikipedia.org/wiki/Cyberpunk_2077',
 	},
 	{
-		title: 'The Legend of Zelda: Link\'s Awakening',
+		title: "The Legend of Zelda: Link's Awakening",
 		releaseDate: '2019-09-20',
 		hearts: 0,
 		platformsPlayed: ['Nintendo Switch'],
 		developers: ['Grezzo'],
 		publishers: ['Nintendo'],
-		wikipedia: 'https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Link%27s_Awakening_(2019_video_game)'
-	  },
-	  {
-		title: 'Tiny Tina\'s Wonderlands',
+		wikipedia:
+			'https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Link%27s_Awakening_(2019_video_game)',
+	},
+	{
+		title: "Tiny Tina's Wonderlands",
 		releaseDate: '2022-03-25',
 		hearts: 0,
 		platformsPlayed: ['PlayStation 5 (PS5)'],
 		developers: ['Gearbox Software'],
 		publishers: ['2K Games'],
-		wikipedia: 'https://en.wikipedia.org/wiki/Tiny_Tina%27s_Wonderlands'
-	  },
-	  {
+		wikipedia: 'https://en.wikipedia.org/wiki/Tiny_Tina%27s_Wonderlands',
+	},
+	{
 		title: 'Halo Infinite',
 		releaseDate: '2021-12-08',
 		hearts: 0,
 		platformsPlayed: ['Xbox One'],
 		developers: ['343 Industries'],
 		publishers: ['Xbox Game Studios'],
-		wikipedia: 'https://en.wikipedia.org/wiki/Halo_Infinite'
-	  },
-	  {
+		wikipedia: 'https://en.wikipedia.org/wiki/Halo_Infinite',
+	},
+	{
 		title: 'Returnal',
 		releaseDate: '2021-04-30',
 		hearts: 0,
 		platformsPlayed: ['PlayStation 5 (PS5)'],
 		developers: ['Housemarque'],
 		publishers: ['Sony Interactive Entertainment'],
-		wikipedia: 'https://en.wikipedia.org/wiki/Returnal_(video_game)'
-	  },
-	  {
+		wikipedia: 'https://en.wikipedia.org/wiki/Returnal_(video_game)',
+	},
+	{
 		title: 'Stray',
 		releaseDate: '2022-07-19',
 		hearts: 0,
 		platformsPlayed: ['PlayStation 5 (PS5)'],
 		developers: ['BlueTwelve Studio'],
 		publishers: ['Annapurna Interactive'],
-		wikipedia: 'https://en.wikipedia.org/wiki/Stray_(video_game)'
-	  }
+		wikipedia: 'https://en.wikipedia.org/wiki/Stray_(video_game)',
+	},
+	{
+		title: 'Xenoblade Chronicles 3',
+		releaseDate: '2022-07-29',
+		hearts: 0,
+		platformsPlayed: ['Nintendo Switch'],
+		developers: ['Monolith Soft'],
+		publishers: ['Nintendo'],
+		wikipedia: 'https://en.wikipedia.org/wiki/Xenoblade_Chronicles_3',
+	},
+	{
+		title: 'God of War Ragnarök',
+		releaseDate: '2022-11-09',
+		hearts: 1,
+		platformsPlayed: ['PlayStation 5 (PS5)'],
+		developers: ['SIE Santa Monica Studio'],
+		publishers: ['Sony Interactive Entertainment'],
+		wikipedia: 'https://en.wikipedia.org/wiki/God_of_War_Ragnarök',
+	},
 ];
 /*
 {
