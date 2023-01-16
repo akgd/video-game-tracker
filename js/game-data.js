@@ -3255,6 +3255,15 @@ const gameData = [
 		publishers: ['Sony Interactive Entertainment'],
 		wikipedia: 'https://en.wikipedia.org/wiki/God_of_War_Ragnarök',
 	},
+	{
+		title: 'Chained Echoes',
+		releaseDate: '2022-12-08',
+		hearts: 1,
+		platformsPlayed: ['PlayStation 5 (PS5)'],
+		developers: ['Matthias Linda'],
+		publishers: ['Deck13 Spotlight'],
+		wikipedia: 'https://en.wikipedia.org/wiki/Chained_Echoes',
+	}
 ];
 /*
 {
