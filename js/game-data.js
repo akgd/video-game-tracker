@@ -3258,7 +3258,7 @@ const gameData = [
 	{
 		title: 'Chained Echoes',
 		releaseDate: '2022-12-08',
-		hearts: 1,
+		hearts: 2,
 		platformsPlayed: ['PlayStation 5 (PS5)'],
 		developers: ['Matthias Linda'],
 		publishers: ['Deck13 Spotlight'],
