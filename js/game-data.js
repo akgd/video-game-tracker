@@ -3238,15 +3238,6 @@ const gameData = [
 		wikipedia: 'https://en.wikipedia.org/wiki/Stray_(video_game)',
 	},
 	{
-		title: 'Xenoblade Chronicles 3',
-		releaseDate: '2022-07-29',
-		hearts: 0,
-		platformsPlayed: ['Nintendo Switch'],
-		developers: ['Monolith Soft'],
-		publishers: ['Nintendo'],
-		wikipedia: 'https://en.wikipedia.org/wiki/Xenoblade_Chronicles_3',
-	},
-	{
 		title: 'God of War Ragnarök',
 		releaseDate: '2022-11-09',
 		hearts: 1,
@@ -3263,6 +3254,15 @@ const gameData = [
 		developers: ['Matthias Linda'],
 		publishers: ['Deck13 Spotlight'],
 		wikipedia: 'https://en.wikipedia.org/wiki/Chained_Echoes',
+	},
+	{
+		title: 'Monster Hunter Rise',
+		releaseDate: '2021-03-26',
+		hearts: 0,
+		platformsPlayed: ['PlayStation 5 (PS5)'],
+		developers: ['Capcom'],
+		publishers: ['Capcom'],
+		wikipedia: 'https://en.wikipedia.org/wiki/Monster_Hunter_Rise',
 	}
 ];
 /*
