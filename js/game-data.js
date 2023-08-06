@@ -3256,13 +3256,13 @@ const gameData = [
 		wikipedia: 'https://en.wikipedia.org/wiki/Chained_Echoes',
 	},
 	{
-		title: 'Monster Hunter Rise',
-		releaseDate: '2021-03-26',
-		hearts: 0,
-		platformsPlayed: ['PlayStation 5 (PS5)'],
-		developers: ['Capcom'],
-		publishers: ['Capcom'],
-		wikipedia: 'https://en.wikipedia.org/wiki/Monster_Hunter_Rise',
+		title: 'The Legend of Zelda: Tears of the Kingdom',
+		releaseDate: '2023-05-12',
+		hearts: 1,
+		platformsPlayed: ['Nintendo Switch'],
+		developers: ['Nintendo EPD'],
+		publishers: ['Nintendo'],
+		wikipedia: 'https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom',
 	}
 ];
 /*
